@@ -1,0 +1,137 @@
+/* General */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 2;
+    padding: 2;
+    background-color: #4b6879;
+    color: #72948f;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #436f9b;
+    margin-bottom: 10px;
+}
+
+/* Encabezado */
+#about-me {
+    text-align: center;
+    padding: 20px;
+    background-color: #20444d;
+    margin-bottom: 20px;
+}
+
+#about-me h1 {
+    font-size: 2rem;
+}
+
+#about-me img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Enlaces */
+#links {
+    text-align: center;
+    padding: 10px;
+    background-color: #112533;
+    margin-bottom: 20px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #9ab5c7;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#links a:hover {
+    text-decoration: underline;
+    color: #5a6d80;
+}
+
+/* Secciones de listas */
+#Mis dias divertidos,
+.tasks {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #551b1b;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(90, 83, 83, 0.1);
+}
+
+
+#h1 {
+    margin: 0;
+    padding: 0 20px;
+    color: greenyellow;
+}
+
+.hobbies li,
+.tasks li {
+    margin-bottom: 5px;
+}
+
+/* Tabla */
+.schedule {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #1bd12b;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(63, 62, 62, 0.1);
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.schedule th,
+.schedule td {
+    padding: 10px;
+    border: 1px solid #502525;
+}
+
+.schedule th {
+    background-color: #638f7e;
+    color: rgb(148, 197, 219);
+}
+
+.schedule td {
+    background-color: #95e219;
+}
+
+/* Formulario */
+.contact-form {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #1bbb93;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(59, 59, 59, 0.1);
+}
+
+.contact-form input,
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #1ce2a7;
+}
+
+.contact-form button {
+    background-color: #7ba78d;
+    color: rgb(189, 141, 141);
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #a2f0c2;
+}
